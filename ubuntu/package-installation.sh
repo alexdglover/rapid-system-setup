@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install base packages
-sudo apt-get install keepassx git openshot vim vlc openssh-server curl python-pip python-dev build-essential -y
+sudo apt-get install keepassx git openshot vim vlc openssh-server curl python-pip python-dev build-essential vokoscreen -y
 
 # Install rvm, requirements, and set default version to 2.4
 curl -sSL https://get.rvm.io | bash -s stable
@@ -24,3 +24,12 @@ sudo dpkg -i ~/Downloads/google-chrome-stable*
 sudo dpkg -i ~/Downloads/dropbox*
 sudo dpkg -i ~/Downloads/atom-amd64.deb
 
+
+# Configure git
+git config --global user.email "alexdglover@gmail.com"
+git config --global user.name "Alex Glover"
+
+# Install Simple Screen Recorder
+sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
+sudo apt-get update
+sudo apt-get install simplescreenrecorder
