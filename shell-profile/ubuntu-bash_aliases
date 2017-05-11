@@ -17,8 +17,8 @@ GIT_PS1_SHOWUPSTREAM=auto
 
 alias be="bundle exec"
 alias gpl="git pull"
-alias profile='vim ~/.bash_profile'
-alias src-profile='source ~/.bash_profile'
+alias profile='vim ~/.bash_aliases'
+alias src-profile='source ~/.bash_aliases'
 
 
 function gcm {
