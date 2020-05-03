@@ -10,7 +10,7 @@ sudo add-apt-repository ppa:unit193/encryption -y
 # Update apt database
 sudo apt update
 # Install all packages
-sudo apt install keepassx git vim vlc openssh-server curl python-dev build-essential veracrypt -y
+sudo apt install keepassx git vim vlc openssh-server curl python-dev build-essential veracrypt awscli -y
 
 # Configure git
 git config --global user.email "alexdglover@gmail.com"
@@ -48,9 +48,6 @@ pyenv global 3.7.4
 
 # Upgrade pip
 pip install --upgrade pip
-
-# Install awscli
-pip install --upgrade --user awscli
 
 # Optional multimedia packages
 # sudo apt install openshot vokoscreen -y
